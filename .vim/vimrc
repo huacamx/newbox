@@ -3,7 +3,7 @@ set nocompatible	" required
 filetype off		" required
 
 " set the runtime path to include Vundle and initilize
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/newbox/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " alternatively pass a paht wher Vundle should install plugins
@@ -43,9 +43,12 @@ nnoremap <space> za
 " ******************************************************************************************
 set nu
 
+set listchars=eol:⏎,tab:␉·,trail:␠,nbsp:⎵
+set list
+
 " monokai sublime like
 syntax enable
-colorscheme monokai
+colorscheme northpole
 
 " 
 set incsearch
