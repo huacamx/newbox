@@ -43,9 +43,12 @@ nnoremap <space> za
 " ******************************************************************************************
 set nu
 
+set listchars=eol:⏎,tab:␉·,trail:␠,nbsp:⎵
+set list
+
 " monokai sublime like
 syntax enable
-colorscheme monokai
+colorscheme northpole
 
 " 
 set incsearch
