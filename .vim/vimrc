@@ -51,10 +51,10 @@ syntax enable
 colorscheme northpole
 
 " 
-set incsearch
-set hlsearch
+set incsearch "Show matches while searching
+set hlsearch "Search highlighting
 
-" 
+" Powerlin setup
 python3 from powerline.vim import setup as powerline_setup
 python3 powerline_setup()
 python3 del powerline_setup
