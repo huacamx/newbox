@@ -96,5 +96,5 @@ source $ZSH/oh-my-zsh.sh
 # virtualenvs 
 export WORKON_HOME=$HOME/.virtualenvs 
 export PROJECT_HOME=$HOME/Devel 
-source /home/huaca/.local/bin/virtualenvwrapper.sh
+. /usr/local/bin/virtualenvwrapper.sh
 
